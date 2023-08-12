@@ -1,0 +1,87 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.user-profile-card {
+  width: 50%;
+  background-color: #150b3e;
+  border-radius: 15px;
+  padding: 30px 25px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile-logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  background-color: #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-name {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #7c3aed;
+}
+
+.user-name {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.balance {
+  font-size: 2rem;
+  color: #585076;
+  font-weight: 500;
+}
+
+.balance-count {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d4d2db;
+}
+
+.ruppes {
+  font-size: 20px;
+  color: #585076;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #d4d2db;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.sub-heading {
+  font-size: 1.3rem;
+  color: #585076;
+}
+
+.rupees-tabs-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-evenly;
+}

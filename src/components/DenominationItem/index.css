@@ -1,0 +1,21 @@
+.list-items {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+}
+
+.btn-container {
+  height: 45px;
+  width: 250px;
+}
+
+.btn {
+  font-size: 30px;
+  width: 100%;
+  font-weight: 500;
+  color: #c4c4c4;
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+  cursor: pointer;
+}
